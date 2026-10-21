@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pausalni-obrt.dokuline.com/sitemap.xml
