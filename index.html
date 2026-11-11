@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Za paušalne obrtnike: izdajete fiskalizirane račune i eRačune, a knjiga prometa KPR i godišnji obrazac PO-SD slažu se sami iz tih računa.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Paušal knjiga</a></div>
-  <nav class="top"><a href="#sto" data-ev="click_nav_sto">Što dobivate</a><a href="price.html" data-ev="click_nav_cijena">Cijena</a><a href="#primjer" data-ev="click_nav_primjer">Primjer</a><a href="#start" data-ev="click_nav_start">Početak</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Paušal knjiga</a>
+  <nav><a href="#sto" data-ev="click_nav_sto">Što dobivate</a><a href="price.html" data-ev="click_nav_cijena">Cijena</a><a href="#primjer" data-ev="click_nav_primjer">Primjer</a><a href="#start" data-ev="click_nav_start">Početak</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Paušalni obrt bez tablica — račun, KPR i PO-SD iz istog unosa</h1>
-    <p class="sub">Za paušalne obrtnike i slobodna zanimanja: izdate račun ili eRačun s fiskalizacijom, plaćanje se upiše u knjigu prometa KPR, a na kraju godine iz nje se složi obrazac PO-SD za predaju Poreznoj upravi.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">To mi treba</a>
-    <p class="cta-note">Rani pristup · Na ovoj stranici još ne primamo plaćanja</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Za paušalne obrtnike</p>
+      <h1 class="rise" style="--i:1">Paušalni obrt bez tablica&nbsp;<span class="soft">— račun, KPR i PO-SD iz istog unosa</span></h1>
+      <p class="rise" style="--i:2">Za paušalne obrtnike i slobodna zanimanja: izdate račun ili eRačun s fiskalizacijom, plaćanje se upiše u knjigu prometa KPR, a na kraju godine iz nje se složi obrazac PO-SD za predaju Poreznoj upravi.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">To mi treba</a>
+      <p class="meta rise" style="--i:4">Rani pristup · Na ovoj stranici još ne primamo plaćanja</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="120" y="165" font-size="40" font-weight="600" fill="#0a1524">Paušalni obrt</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="260" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="190" y="294" font-size="32" fill="#566174">knjigu prometa</text><rect x="120" y="390" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="190" y="424" font-size="32" fill="#566174">obrazac PO-SD</text><rect x="120" y="520" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="190" y="554" font-size="32" fill="#566174">istog unosa</text><rect x="700" y="250" width="370" height="420" fill="#dfe8f7" rx="20" /><text x="730" y="320" font-size="34" font-weight="600" fill="#0a1524">KPR</text><rect x="740" y="500" width="50" height="100" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="820" y="480" width="50" height="120" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="900" y="420" width="50" height="180" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="980" y="360" width="50" height="240" fill="#12397a" rx="8" stroke="#12397a" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Za</dt><dd>Paušalne obrtnike</dd></div>
+      <div><dt>Račun</dt><dd>Izdate račun ili eRačun</dd></div>
+      <div><dt>Kako</dt><dd>Upisuje se sama</dd></div>
+      <div><dt>Pristup</dt><dd>Servis je u pripremi</dd></div>
+    </dl>
+  </section>
 
   <section id="sto" data-view="features_view">
-    <h2>Što dobivate</h2>
-    <div class="grid">
-      <div class="card"><b>Računi i eRačuni</b><span>Fiskalizirani, s propisanim podacima.</span><br><a class="btn" href="price.html" data-ev="feature_racuni">To mi treba</a></div>
-      <div class="card"><b>Knjiga KPR</b><span>Svaka naplata upisuje se sama.</span><br><a class="btn" href="price.html" data-ev="feature_kpr">To mi treba</a></div>
-      <div class="card"><b>Obrazac PO-SD</b><span>Složen iz knjige na kraju godine.</span><br><a class="btn" href="price.html" data-ev="feature_posd">To mi treba</a></div>
-      <div class="card"><b>Rokovi</b><span>Podsjetnik za doprinose, porez i PO-SD.</span><br><a class="btn" href="price.html" data-ev="feature_rokovi">To mi treba</a></div>
+    <div class="stack"><h2>Što dobivate</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="36" font-weight="600" fill="#0a1524">Računi i eRačuni</text><text x="100" y="175" font-size="30" fill="#566174">propisanim podacima</text><rect x="140" y="220" width="500" height="300" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="250" width="440" height="40" fill="#dfe8f7" rx="8" /><rect x="170" y="320" width="200" height="28" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="320" width="200" height="28" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="370" width="420" height="28" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="430" width="160" height="40" fill="#12397a" rx="12" /></svg></div>
+        <h3>Računi i eRačuni</h3><p>Fiskalizirani, s propisanim podacima.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_racuni">To mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="36" font-weight="600" fill="#0a1524">Knjiga KPR</text><text x="100" y="175" font-size="30" fill="#566174">upisuje se sama</text><rect x="120" y="230" width="250" height="280" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><rect x="400" y="230" width="250" height="280" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><rect x="150" y="270" width="180" height="16" fill="#dde2ea" rx="8" /><rect x="150" y="310" width="140" height="16" fill="#b9c3d2" rx="8" /><rect x="150" y="350" width="170" height="16" fill="#dde2ea" rx="8" /><rect x="430" y="270" width="180" height="16" fill="#12397a" rx="8" /><rect x="430" y="310" width="150" height="16" fill="#dde2ea" rx="8" /><rect x="430" y="350" width="120" height="16" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Knjiga KPR</h3><p>Svaka naplata upisuje se sama.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kpr">To mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="36" font-weight="600" fill="#0a1524">Obrazac PO-SD</text><text x="100" y="175" font-size="30" fill="#566174">kraju godine</text><rect x="180" y="220" width="420" height="300" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><rect x="220" y="250" width="300" height="28" fill="#12397a" rx="8" /><rect x="220" y="310" width="320" height="16" fill="#dde2ea" rx="8" /><rect x="220" y="350" width="260" height="16" fill="#b9c3d2" rx="8" /><rect x="220" y="390" width="300" height="16" fill="#dde2ea" rx="8" /><rect x="220" y="430" width="180" height="16" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Obrazac PO-SD</h3><p>Složen iz knjige na kraju godine.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_posd">To mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="36" font-weight="600" fill="#0a1524">Rokovi</text><text x="100" y="175" font-size="30" fill="#566174">porez i PO-SD</text><circle cx="390" cy="370" r="110" fill="#ffffff" stroke="#dde2ea" stroke-width="8" /><circle cx="390" cy="370" r="8" fill="#12397a" /><line x1="390" y1="370" x2="390" y2="290" stroke="#12397a" stroke-width="6" /><line x1="390" y1="370" x2="460" y2="400" stroke="#0a1524" stroke-width="6" /><rect x="140" y="300" width="80" height="16" fill="#dde2ea" rx="8" /><rect x="140" y="340" width="80" height="16" fill="#b9c3d2" rx="8" /><rect x="140" y="380" width="80" height="16" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Rokovi</h3><p>Podsjetnik za doprinose, porez i PO-SD.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_rokovi">To mi treba</a>
+      </article>
     </div>
   </section>
 
-  <section id="primjer" data-view="example_view">
-    <h2>Primjer (izmišljeni podaci)</h2>
-    <p class="fine">Prevoditeljica iz Zadra radi kao paušalni obrt i izdaje dvadesetak računa mjesečno, nekima tvrtkama kao eRačun. Do sada je račune radila u jednom programu, knjigu prometa vodila u tablici, a PO-SD svake godine slagala ručno iz tablice. Sada izda račun, kad sjedne uplata označi je plaćenom, i ona je odmah u knjizi KPR. U siječnju PO-SD je složen iz knjige, ona ga samo pregleda i preda.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Pogledajte ponudu</a>
+  <section id="primjer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Primjer</h2>
+      <p>Prevoditeljica iz Zadra radi kao paušalni obrt i izdaje dvadesetak računa mjesečno, nekima tvrtkama kao eRačun. Do sada je račune radila u jednom programu, knjigu prometa vodila u tablici, a PO-SD svake godine slagala ručno iz tablice. Sada izda račun, kad sjedne uplata označi je plaćenom, i ona je odmah u knjizi KPR. U siječnju PO-SD je složen iz knjige, ona ga samo pregleda i preda.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Pogledajte ponudu</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">račun</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">knjiga</text><circle cx="960" cy="150" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">preda</text><rect x="120" y="300" width="960" height="420" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="364" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="240" y="400" font-size="34" fill="#566174">iz Zadra</text><rect x="170" y="454" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="240" y="490" font-size="34" fill="#566174">knjizi KPR</text><rect x="170" y="544" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="240" y="580" font-size="34" fill="#566174">samo pregleda</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Kako radi</h2>
-    <p>Paušalni obrtnik plaća porez u paušalnom iznosu, ali ipak mora izdavati fiskalizirane račune, voditi knjigu prometa KPR i jednom godišnje predati obrazac PO-SD s ukupnim primicima. Od uvođenja eRačuna dio računa prema tvrtkama ide i elektronički, u propisanom obliku.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Kako radi</h2></div>
+    <div class="stack">
+      <p>Paušalni obrtnik plaća porez u paušalnom iznosu, ali ipak mora izdavati fiskalizirane račune, voditi knjigu prometa KPR i jednom godišnje predati obrazac PO-SD s ukupnim primicima. Od uvođenja eRačuna dio računa prema tvrtkama ide i elektronički, u propisanom obliku.</p>
     <p>Mnogi to rade u tri odvojena alata: program za račune, tablicu za knjigu prometa i ručno slaganje obrasca. Odgovori na česta pitanja nalaze se u odjeljku <a href="#faq" data-ev="click_opis_faq">pitanja i odgovora</a>, a obrt možete prijaviti <a href="#start" data-ev="click_opis_start">na dnu stranice</a>.</p>
     <p>Kupce i usluge unosite jednom. Račun se izdaje s propisanim podacima i fiskalizira, a kupcu koji je obveznik eRačuna šalje se kao eRačun. Za uplatu na račun na računu je i barkod za plaćanje, tako da kupac ne mora prepisivati podatke.</p>
     <p>Kad uplata sjedne, račun označite plaćenim — jednim klikom ili prema izvodu banke — i naplata se sama upiše u knjigu prometa KPR, s datumom i načinom plaćanja. Gotovinske i kartične naplate upisuju se odmah pri izdavanju računa.</p>
@@ -118,31 +152,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Kod obrtnika koji iznajmljuju apartmane ili rade sezonski servis prati i razdoblja bez prometa, tako da u knjizi i obrascu nema praznina koje bi kasnije trebalo objašnjavati. Kad dođe novi kupac usred sezone, unese se jednom i spreman je za sve sljedeće račune.</p>
     <p>Za početak dovoljno je unijeti jednog kupca i izdati prvi račun.</p>
     <p>Servis izdaje račune i vodi evidencije; odgovornost za podatke i predaju obrazaca ostaje na obrtniku.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Česta pitanja</h2>
-    <h3>Što servis radi?</h3>
-    <p>Izdaje fiskalizirane račune i eRačune, vodi knjigu prometa KPR iz naplata i na kraju godine slaže obrazac PO-SD.</p>
-    <h3>Predaje li servis PO-SD umjesto mene?</h3>
-    <p>Ne. Obrazac se složi iz knjige, a predajete ga sami preko ePorezne.</p>
-    <h3>Mogu li slati eRačune tvrtkama?</h3>
-    <p>Da, kupcu koji je obveznik eRačuna račun se šalje u propisanom elektroničkom obliku.</p>
-    <h3>Za koga je servis?</h3>
-    <p>Za paušalne obrte i slobodna zanimanja koji sami izdaju račune i vode knjigu prometa.</p>
-    <h3>Mogu li ga koristiti već sada?</h3>
-    <p>Još ne. Servis je u pripremi i provjeravamo trebaju li ga paušalni obrtnici.</p>
+    <div class="stack"><h2>Česta pitanja</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Što servis radi?</h3><p>Izdaje fiskalizirane račune i eRačune, vodi knjigu prometa KPR iz naplata i na kraju godine slaže obrazac PO-SD.</p></div>
+      <div class="split flip"><h3>Predaje li servis PO-SD umjesto mene?</h3><p>Ne. Obrazac se složi iz knjige, a predajete ga sami preko ePorezne.</p></div>
+      <div class="split flip"><h3>Mogu li slati eRačune tvrtkama?</h3><p>Da, kupcu koji je obveznik eRačuna račun se šalje u propisanom elektroničkom obliku.</p></div>
+      <div class="split flip"><h3>Za koga je servis?</h3><p>Za paušalne obrte i slobodna zanimanja koji sami izdaju račune i vode knjigu prometa.</p></div>
+      <div class="split flip"><h3>Mogu li ga koristiti već sada?</h3><p>Još ne. Servis je u pripremi i provjeravamo trebaju li ga paušalni obrtnici.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Prijavite obrt</h2>
-    <p><label>Koliko računa mjesečno izdajete<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— odaberite —</option><option>Do 5</option><option>5–20</option><option>20–50</option><option>Više od 50</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Započni</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Prijavite obrt</h2>
+    </div>
+    <div class="tile stack">
+      <label>Koliko računa mjesečno izdajete<select data-ev-focus="form_start"><option value="">— odaberite —</option><option>Do 5</option><option>5–20</option><option>20–50</option><option>Više od 50</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Započni</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Paušal knjiga</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privatnost</a></p>
-  <p class="muted">Servis izdaje račune i vodi evidencije; odgovornost za podatke i predaju obrazaca ostaje na obrtniku.</p>
+  <p>Servis izdaje račune i vodi evidencije; odgovornost za podatke i predaju obrazaca ostaje na obrtniku.</p>
 </div></footer>
 
 </body>
